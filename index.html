@@ -26,7 +26,7 @@
 <body>
 <div id="app">
     <div v-pin="card1.pin" class="card1"><button @click="card1.pin = !card1.pin">订住/取消</button></div>
-    <div v-pin="card2.pin" class="card2"><a @click="card2.pin = !card2.pin">订住/取消</a></div>
+    <div v-pin:true.bottom.right="card2.pin" class="card2"><a @click="card2.pin = !card2.pin">订住/取消</a></div>
     <p>百度首页 一粒灰尘的家 消息 商城 设置 网页 新闻 贴吧 知道 音乐 图片 视频 地图 文库 百科
 
         显卡
